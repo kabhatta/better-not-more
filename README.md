@@ -2,6 +2,10 @@
 
 A learning workspace aligned with **Better, Not More, proposal v0.4**. Six criterion-specific roles question research drafts; the researcher writes every revision. The literature reference for the criteria appears once in the site's How it works page.
 
+[Open the live demonstration](https://better-not-more-research-lab.kabhatta.chatgpt.site) · [Public source repository](https://github.com/kabhatta/better-not-more)
+
+The deployed application corresponds to commit `c295c041724de11e677ce68acaca5f972e9bde8e`. Later documentation commits may update this README without changing the deployed application.
+
 ## Run
 
 Requires Node 22+.
@@ -41,7 +45,7 @@ New manuscript supports DOCX, text PDFs, TXT, and Markdown. Extraction runs in t
 | An agent closes an issue when the revision meets the criterion. | The criterion check is explicit, but the researcher confirms it. Automated assessment of revisions remains unimplemented and is not claimed. |
 | Authors explain a sample of their changed passages. | A researcher can select any revised passage, submit an explanation, and enter a demonstration human rating. Independent sampling and rater access remain future work. |
 | Logs capture acceptance, rejection, justification, and engagement. | Decisions, explanations, support use, and timestamps are exportable. Active engagement duration is not measured; elapsed timestamps must not be treated as reading time. |
-| Public repository, German hosting, model/provider, pilot, and ethics details. | No public source-repository URL, German data residency, selected/evaluated model, completed pilot, or ethics approval has been verified. These proposal claims/placeholders require confirmation before submission. |
+| Public repository, German hosting, model/provider, pilot, and ethics details. | The source is publicly available at [kabhatta/better-not-more](https://github.com/kabhatta/better-not-more). German data residency, a selected/evaluated model, a completed pilot, and ethics approval have not been verified and require confirmation before submission. |
 
 Earlier browser sessions are upgraded without replacing drafts, responses, or event history. Old practice and fading records are preserved under `legacy` in the export. The old fading rule no longer suppresses active questions.
 
